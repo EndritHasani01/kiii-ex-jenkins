@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "EndritHasani01/kiii-jenkins"
+        IMAGE_NAME = "EndritHasani01/kiii-ex-jenkins"
         DOCKER_CREDENTIALS_ID = 'dockerhub' // Make sure this ID matches your Jenkins credentials
     }
 
