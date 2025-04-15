@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "EndritHasani01/kiii-ex-jenkins"
-        DOCKER_CREDENTIALS_ID = 'dockerhub' // Make sure this ID matches your Jenkins credentials
+        IMAGE_NAME = "endrithasani01/kiii-ex-jenkins"
+        DOCKER_CREDENTIALS_ID = 'dockerhub'
     }
 
     stages {
